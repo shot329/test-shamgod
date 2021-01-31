@@ -156,7 +156,7 @@ header {
       padding-top: 50px; }
 
 .contact {
-  background-image: url(shamgod-2019mitasai_4.jpg);
+  background-image: url("shamgod-2019mitasai_4.jpg");
   background-size: cover;
   color: white;
   padding: 300px 0;
