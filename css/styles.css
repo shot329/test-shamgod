@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.clear {
+  clear: left; }
+
+.top-wrapper {
+  background-image: url("../image/shamgod-topimage.jpg");
+  background-size: cover;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 400px 0; }
+
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  position: fixed;
+  z-index: 10; }
+  header .header-left .header-logo {
+    font-size: 30px;
+    padding-left: 20px;
+    line-height: 50px;
+    float: left; }
+  header .header-left .header-list li {
+    font-size: 20px;
+    padding-left: 20px;
+    line-height: 50px;
+    list-style: none;
+    float: left; }
+  header .header-left .menu-icon {
+    display: none; }
+
+.about {
+  padding: 60px 0;
+  background-color: white;
+  color: black; }
+  .about .about-container {
+    width: 100%; }
+  .about .about-division {
+    float: left;
+    width: 50%; }
+    .about .about-division .about-image {
+      text-align: right; }
+      .about .about-division .about-image img {
+        width: 80%; }
+    .about .about-division .about-paragragh {
+      margin: 0 auto;
+      width: 80%; }
+      .about .about-division .about-paragragh h2 {
+        font-size: 32px;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px; }
+      .about .about-division .about-paragragh p {
+        padding-top: 20px;
+        font-size: 18px; }
+
+.fsbb {
+  background-color: black;
+  color: white;
+  padding: 60px 0;
+  overflow: hidden; }
+  .fsbb .fsbb-container {
+    width: 100%; }
+    .fsbb .fsbb-container .fsbb-division {
+      float: right;
+      width: 50%; }
+      .fsbb .fsbb-container .fsbb-division .fsbb-image {
+        text-align: left; }
+        .fsbb .fsbb-container .fsbb-division .fsbb-image img {
+          width: 80%; }
+      .fsbb .fsbb-container .fsbb-division .fsbb-paragragh {
+        margin: 0 auto;
+        width: 80%; }
+        .fsbb .fsbb-container .fsbb-division .fsbb-paragragh h2 {
+          font-size: 32px;
+          border-bottom: 1px solid white;
+          margin-bottom: 20px; }
+        .fsbb .fsbb-container .fsbb-division .fsbb-paragragh p {
+          padding-top: 20px;
+          font-size: 18px; }
+
+.member {
+  background-color: white;
+  color: black;
+  padding: 60px 0;
+  text-align: center; }
+  .member .member-container {
+    width: 100%; }
+    .member .member-container .member-heading {
+      margin: 0 auto; }
+      .member .member-container .member-heading h2 {
+        font-size: 32px;
+        border-bottom: 1px solid black;
+        margin-bottom: 30px;
+        display: inline-block; }
+    .member .member-container .member-division {
+      float: left;
+      width: 25%; }
+      .member .member-container .member-division h3 {
+        font-size: 24px;
+        margin-bottom: 10px; }
+      .member .member-container .member-division img {
+        width: 80%;
+        height: 280px;
+        border-radius: 50px;
+        margin-bottom: 20px; }
+      .member .member-container .member-division p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px; }
+
+.event {
+  background-color: black;
+  color: white;
+  padding: 60px 0;
+  text-align: center; }
+  .event .event-container {
+    width: 100%; }
+    .event .event-container h2 {
+      font-size: 32px;
+      margin-bottom: 30px; }
+    .event .event-container .event-division {
+      float: left;
+      width: 50%; }
+      .event .event-container .event-division h3 {
+        font-size: 26px;
+        margin-bottom: 30px; }
+      .event .event-container .event-division img {
+        width: 80%;
+        margin-bottom: 20px; }
+      .event .event-container .event-division p {
+        width: 80%;
+        font-size: 16px;
+        margin: 0 auto; }
+
+.showcase {
+  background-color: white;
+  padding: 100px 0;
+  color: black;
+  text-align: center; }
+  .showcase .showcase-container {
+    width: 100%; }
+    .showcase .showcase-container .showcase-heading {
+      margin: 0 auto; }
+      .showcase .showcase-container .showcase-heading h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid black;
+        display: inline-block; }
+    .showcase .showcase-container .showcase-youtube {
+      padding-top: 50px; }
+
+.contact {
+  background-image: url(../image/shamgod-2019mitasai_4.jpg);
+  background-size: cover;
+  color: white;
+  padding: 300px 0;
+  text-align: center; }
+  .contact h2 {
+    font-size: 30px; }
+  .contact .contact-btn {
+    margin: 10px;
+    border: 2px solid white;
+    display: inline-block; }
+  .contact p {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer; }
+    .contact p:hover {
+      background-color: white;
+      color: black; }
+
+.footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
