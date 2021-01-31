@@ -7,7 +7,7 @@
   clear: left; }
 
 .top-wrapper {
-  background-image: url("../image/shamgod-topimage.jpg");
+  background-image: url("shamgod-topimage.jpg");
   background-size: cover;
   color: #e6e6e6;
   text-align: center;
@@ -156,7 +156,7 @@ header {
       padding-top: 50px; }
 
 .contact {
-  background-image: url(../image/shamgod-2019mitasai_4.jpg);
+  background-image: url(shamgod-2019mitasai_4.jpg);
   background-size: cover;
   color: white;
   padding: 300px 0;
