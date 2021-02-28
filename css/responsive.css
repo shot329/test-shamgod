@@ -1,60 +1,51 @@
 @media screen and (max-width: 800px) {
   header .header-left .header-logo {
-    display: none;
-  }
+    display: none; }
   header .header-left .header-list {
-    display: none;
-  }
+    display: none; }
   header .header-left .menu-icon {
     display: block;
     font-size: 28px;
-    color: white;
-  }
+    color: white; }
 
   .top-wrapper {
-    background-image: url("../shamgod-topimage_3.jpg");
-    padding: 250px 0;
-  }
+    background-image: url(../image/shamgod-topimage_3.jpg);
+    padding: 300px 0; }
 
   .about .about-division {
-    width: 100%;
-  }
-  .about .about-division .about-image {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .about .about-division .about-paragragh {
-    text-align: center;
-  }
-  .about .about-division .about-paragragh h2 {
-    display: inline-block;
-  }
+    width: 100%; }
+    .about .about-division .about-image {
+      text-align: center;
+      margin-bottom: 20px; }
+    .about .about-division .about-paragragh {
+      text-align: center; }
+      .about .about-division .about-paragragh h2 {
+        display: inline-block; }
 
   .fsbb .fsbb-container .fsbb-division {
-    width: 100%;
-  }
-  .fsbb .fsbb-container .fsbb-division .fsbb-image {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  .fsbb .fsbb-container .fsbb-division .fsbb-paragragh {
-    text-align: center;
-  }
-  .fsbb .fsbb-container .fsbb-division .fsbb-paragragh h2 {
-    display: inline-block;
-  }
+    width: 100%; }
+    .fsbb .fsbb-container .fsbb-division .fsbb-image {
+      text-align: center;
+      margin-bottom: 20px; }
+    .fsbb .fsbb-container .fsbb-division .fsbb-paragragh {
+      text-align: center; }
+      .fsbb .fsbb-container .fsbb-division .fsbb-paragragh h2 {
+        display: inline-block; }
 
   .member .member-container .member-division {
     width: 100%;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; }
 
   .event .event-container .event-division {
     width: 100%;
-    margin-bottom: 20px;
-  }
+    margin-bottom: 20px; }
 
   .showcase .showcase-container .showcase-youtube iframe {
-    width: 90%;
-  }
-}
+    width: 90%; }
+
+  .faq-wrapper .faq-container {
+    width: 60%; }
+    .faq-wrapper .faq-container .faq .faq-list-item span {
+      display: none; } }
+
+/*# sourceMappingURL=responsive.css.map */

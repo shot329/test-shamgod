@@ -1,0 +1,111 @@
+@media screen and (max-width: 800px) {
+
+// ヘッダー
+header {
+  .header-left {
+    .header-logo {
+      display: none;
+    }
+    .header-list {
+      display: none;
+    }
+    .menu-icon {
+      display: block;
+      font-size: 28px;
+      color: white;
+    }
+  }
+}
+
+// トップ
+.top-wrapper {
+  background-image: url(../image/shamgod-topimage_3.jpg);
+  padding: 300px 0;
+}
+
+// アバウト
+.about {
+  .about-container {
+  }
+  .about-division {
+    width: 100%;
+    .about-image {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .about-paragragh {
+      text-align: center;
+      & h2 {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+// fsbb
+.fsbb {
+  .fsbb-container {
+    .fsbb-division {
+      width: 100%;
+      .fsbb-image {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .fsbb-paragragh {
+        text-align: center;
+        & h2 {
+          display: inline-block;
+        }
+      }
+
+    }
+  }
+}
+
+// member
+.member {
+  .member-container {
+    .member-division {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// event
+.event {
+  .event-container {
+    .event-division {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// showcase
+.showcase {
+  .showcase-container {
+    .showcase-youtube {
+      & iframe {
+        width: 90%;
+      }
+    }
+  }
+}
+
+// faq
+.faq-wrapper {
+  .faq-container {
+    width: 60%;
+    .faq {
+      .faq-list-item {
+        span {
+          display: none;
+        }
+      }
+    }
+  }
+
+}
+
+}

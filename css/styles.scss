@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
+// トップ
+.top-wrapper {
+  background-image: url("../shamgod-topimage.jpg");
+  background-size: cover;
+  color:darken(white, 10%);
+  text-align: center;
+  padding: 400px 0;
+}
+
+// ヘッダー
+header {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  opacity: 0.7;
+  color: white;
+  position: fixed;
+  z-index: 10;
+  .header-left {
+    .header-logo {
+      font-size: 30px;
+      padding-left: 20px;
+      line-height: 50px;
+      float: left;
+    }
+    .header-list li {
+      font-size: 20px;
+      padding-left: 20px;
+      line-height: 50px;
+      list-style: none;
+      float: left;
+    }
+    .menu-icon {
+      display: none;
+    }
+  }
+}
+
+// アバウト
+.about {
+  padding: 60px 0;
+  background-color: whitesmoke;
+  color: black;
+  .about-container {
+    width: 100%;
+  }
+  .about-division {
+    float: left;
+    width: 50%;
+    .about-image {
+      text-align: right;
+      & img {
+        width: 80%;
+      }
+    }
+    .about-paragragh {
+      margin: 0 auto;
+      width: 80%;
+      & h2 {
+        font-size: 32px;
+        border-bottom: 1px solid black;
+        margin-bottom: 20px;
+      }
+      & p {
+        padding-top: 20px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+// fsbb
+.fsbb {
+  background-color:darkslategrey;
+  color: white;
+  padding: 60px 0;
+  overflow: hidden;
+  .fsbb-container {
+    width: 100%;
+    .fsbb-division {
+      float: right;
+      width: 50%;
+      .fsbb-image {
+        text-align: left;
+        & img {
+          width: 80%;
+        }
+      }
+      .fsbb-paragragh {
+        margin: 0 auto;
+        width: 80%;
+        & h2 {
+          font-size: 32px;
+          border-bottom: 1px solid white;
+          margin-bottom: 20px;
+        }
+        & p {
+          padding-top: 20px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+// our member
+.member {
+  background-color: whitesmoke;
+  color: black;
+  padding: 60px 0;
+  text-align: center;
+  .member-container {
+    width: 100%;
+    .member-heading {
+      // width: 40%;
+      margin: 0 auto;
+      & h2 {
+        font-size: 32px;
+        border-bottom: 1px solid black;
+        margin-bottom: 30px;
+        display: inline-block;
+      }
+    }
+    .member-division {
+      float: left;
+      width: 25%;
+      & h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      & img {
+        width: 80%;
+        height: 280px;
+        border-radius: 50px;
+        margin-bottom: 20px;
+      }
+      & p {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+// event
+.event {
+  background-color:darkslategrey;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+  .event-container {
+    width: 100%;
+    & h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .event-division {
+      float: left;
+      width: 50%;
+      & h3 {
+        font-size: 26px;
+        margin-bottom: 30px;
+      }
+      & img {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+      & p {
+        width: 80%;
+        font-size: 16px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+// showcase
+.showcase {
+  background-color: whitesmoke;
+  padding: 100px 0;
+  color: black;
+  text-align: center;
+  .showcase-container {
+    width: 100%;
+    .showcase-heading {
+      margin: 0 auto;
+      & h2 {
+        font-size: 32px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid black;
+        display: inline-block;
+        // width: 40%;
+      }
+    }
+    .showcase-youtube {
+      padding-top: 50px;
+    }
+  }
+}
+
+// faq
+.faq-wrapper {
+  background-color:gainsboro;
+  text-align: center;
+  padding: 60px 0;
+  color: black;
+  .faq-container {
+    margin: 0 auto;
+    width: 45%;
+    .heading {
+      font-size: 24px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid black;
+      display: inline-block;
+    }
+    .faq ul {
+      list-style: none;
+      .faq-list-item {
+        border-bottom: 1px solid black;
+        margin-bottom: 40px;
+        position: relative;
+        cursor: pointer;
+        .question {
+          margin-bottom: 30px;
+        }
+        span {
+          position: absolute;
+          top: 0;
+          right: 5px;
+        }
+        .answer {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+// contact
+.contact {
+  background-image: url("../shamgod-2019mitasai_4.jpg");
+  background-size: cover;
+  color: white;
+  padding: 300px 0;
+  text-align: center;
+  & h2 {
+    font-size: 30px;
+  }
+  .contact-btn {
+    margin: 10px;
+    border: 2px solid white;
+    display: inline-block;
+  }
+  & p {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+      color: black;
+    }
+  }
+}
+
+// フッター
+.footer {
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+}
