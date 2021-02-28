@@ -11,7 +11,7 @@
   background-size: cover;
   color: #e6e6e6;
   text-align: center;
-  padding: 450px 0; }
+  padding: 400px 0; }
 
 header {
   width: 100%;
@@ -37,7 +37,7 @@ header {
 
 .about {
   padding: 60px 0;
-  background-color: white;
+  background-color: whitesmoke;
   color: black; }
   .about .about-container {
     width: 100%; }
@@ -60,7 +60,7 @@ header {
         font-size: 18px; }
 
 .fsbb {
-  background-color: black;
+  background-color: darkslategrey;
   color: white;
   padding: 60px 0;
   overflow: hidden; }
@@ -85,7 +85,7 @@ header {
           font-size: 18px; }
 
 .member {
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   padding: 60px 0;
   text-align: center; }
@@ -115,7 +115,7 @@ header {
         font-size: 16px; }
 
 .event {
-  background-color: black;
+  background-color: darkslategrey;
   color: white;
   padding: 60px 0;
   text-align: center; }
@@ -139,7 +139,7 @@ header {
         margin: 0 auto; }
 
 .showcase {
-  background-color: white;
+  background-color: whitesmoke;
   padding: 100px 0;
   color: black;
   text-align: center; }
@@ -154,6 +154,35 @@ header {
         display: inline-block; }
     .showcase .showcase-container .showcase-youtube {
       padding-top: 50px; }
+
+.faq-wrapper {
+  background-color: gainsboro;
+  text-align: center;
+  padding: 60px 0;
+  color: black; }
+  .faq-wrapper .faq-container {
+    margin: 0 auto;
+    width: 45%; }
+    .faq-wrapper .faq-container .heading {
+      font-size: 24px;
+      margin-bottom: 40px;
+      border-bottom: 1px solid black;
+      display: inline-block; }
+    .faq-wrapper .faq-container .faq ul {
+      list-style: none; }
+      .faq-wrapper .faq-container .faq ul .faq-list-item {
+        border-bottom: 1px solid black;
+        margin-bottom: 40px;
+        position: relative;
+        cursor: pointer; }
+        .faq-wrapper .faq-container .faq ul .faq-list-item .question {
+          margin-bottom: 30px; }
+        .faq-wrapper .faq-container .faq ul .faq-list-item span {
+          position: absolute;
+          top: 0;
+          right: 5px; }
+        .faq-wrapper .faq-container .faq ul .faq-list-item .answer {
+          display: none; }
 
 .contact {
   background-image: url("../shamgod-2019mitasai_4.jpg");
@@ -182,3 +211,5 @@ header {
   font-size: 10px;
   text-align: center;
   padding: 20px; }
+
+/*# sourceMappingURL=styles.css.map */
